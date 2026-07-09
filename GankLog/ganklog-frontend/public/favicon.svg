@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E3B96A"/>
+      <stop offset="100%" stop-color="#8C6E36"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="96" fill="#0F1419"/>
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#2C3844" stroke-width="2"/>
+
+  <g fill="url(#ringGrad)">
+    <circle cx="100" cy="100" r="70" fill="none" stroke="url(#ringGrad)" stroke-width="10"/>
+    <g id="teeth">
+      <rect x="94" y="18" width="12" height="20" rx="2"/>
+      <rect x="94" y="162" width="12" height="20" rx="2"/>
+      <rect x="18" y="94" width="20" height="12" rx="2"/>
+      <rect x="162" y="94" width="20" height="12" rx="2"/>
+      <rect x="94" y="18" width="12" height="20" rx="2" transform="rotate(45 100 100)"/>
+      <rect x="94" y="18" width="12" height="20" rx="2" transform="rotate(90 100 100)"/>
+      <rect x="94" y="18" width="12" height="20" rx="2" transform="rotate(135 100 100)"/>
+      <rect x="94" y="18" width="12" height="20" rx="2" transform="rotate(180 100 100)"/>
+      <rect x="94" y="18" width="12" height="20" rx="2" transform="rotate(225 100 100)"/>
+      <rect x="94" y="18" width="12" height="20" rx="2" transform="rotate(270 100 100)"/>
+      <rect x="94" y="18" width="12" height="20" rx="2" transform="rotate(315 100 100)"/>
+    </g>
+  </g>
+
+  <circle cx="100" cy="100" r="58" fill="#161D28"/>
+
+  <g fill="#4FA8D8">
+    <polygon points="100,44 108,90 92,90" />
+    <rect x="97" y="90" width="6" height="42" />
+    <rect x="82" y="100" width="36" height="7" rx="1.5" fill="#D4A24C"/>
+    <polygon points="100,132 106,146 94,146" />
+  </g>
+</svg>

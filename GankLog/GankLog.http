@@ -1,0 +1,6 @@
+@GankLog_HostAddress = http://localhost:5136
+
+GET {{GankLog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
