@@ -19,6 +19,7 @@ builder.Services.AddCors(options =>
             "http://localhost:5173",
              "http://localhost:5174",
              "http://localhost:3000",
+             "https://ganklog.vercel.app",
              "https://ganklog-git-master-peraltavictoria239-5866s-projects.vercel.app",
              "https://ganklog-imdydw8e2-peraltavictoria239-5866s-projects.vercel.app"
              )
