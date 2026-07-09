@@ -34,36 +34,7 @@ Infraestructura
 - Backend + base de datos desplegados en [Render](https://render.com)
 - Frontend desplegado en [Vercel](https://vercel.com)
 
- Estructura del repositorio:
 
- /
-├── GankLog/ Backend (ASP.NET Core)
-│   ├── Controllers/
-│   │   ├── AuthController.cs
-│   │   ├── PlayersController.cs
-│   │   └── MatchesController.cs
-│   ├── Models/
-│   │   ├── Player.cs
-│   │   ├── Match.cs
-│   │   └── Enums.cs
-│   ├── DTOs/
-│   ├── Data/
-│   │   └── GankLogDbContext.cs
-│   ├── Migrations/
-│   ├── Program.cs
-│   ├── GankLog.csproj
-│   ├── Dockerfile
-│   │
-│   └── ganklog-frontend/       # Frontend (React + Vite)
-│       ├── src/
-│       │   ├── components/
-│       │   ├── api.js
-│       │   ├── App.jsx
-│       │   └── index.css
-│       ├── index.html
-│       └── package.json
-│
-└── README.md
 
  Cómo correrlo en local:
 
